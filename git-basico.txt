@@ -1,0 +1,33 @@
+// Iniciar repositório
+git init
+// Define usuário
+git config --global user.name "Nome Usuário"
+git config --global user.email email-usuario@example.com
+// Cria arquivo de readme para o github
+touch README.md
+// Cria arquivo para os arquivos que serão ignorados
+touch .gitignore
+// Adiciona os arquivos para commit
+git add .
+// Faz commit
+git commit -m "MSG"
+// Sobe no repositório
+git remote add origin https://github.com/RogerPhilippe/nome-do-repositorio.git
+// Envia os arquivos para o repositporio na nuvem
+git push -u origin master
+
+// Atualiza as informações para push ou pull
+git fetch
+// Enviar dados para branch atual
+git push
+// Baixar os arquivos na branch atual
+git pull
+
+// Verifica a branch atual
+git branch
+// Verifica todas as branchs
+git branch -a
+
+// Merge de uma branch com a branch atual
+git merge branch-para-merge
+git push -u origin branch-atual
